@@ -1,0 +1,35 @@
+/*Main - Producto 1*/
+
+.producto1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  background-color: antiquewhite;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.producto1__imagen img {
+  max-width: 100%;
+}
+
+.producto1__descr {
+  text-align: center;
+}
+
+.producto1__precio {
+  color: grey;
+  font-size: 22px;
+}
+
+.producto1 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  text-align: center;
+  cursor: pointer;
+  width: 100px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}

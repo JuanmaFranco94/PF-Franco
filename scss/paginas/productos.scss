@@ -1,0 +1,40 @@
+/*Main - Productos*/
+
+.productos__item__imagen {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.col-lg-4, .col-sm-6 {
+  margin-bottom: 50px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.mb-4 {
+  text-align: center;
+}
+
+.btn {
+  margin-top: 10px;
+
+  &:hover {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    transition: 0.3s;
+  }
+}
+
+.boton__link {
+  text-decoration: none;
+  color: white;
+
+  &:hover{
+    color: white;
+  }
+}

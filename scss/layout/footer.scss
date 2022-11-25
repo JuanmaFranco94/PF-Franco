@@ -1,0 +1,91 @@
+footer {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    padding: 1rem 8%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo__footer {
+    height: 80px;
+    margin-bottom: 1rem;
+}
+
+.contenedor__redes, .contenedor__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.redes__icono {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid #f2f2f2;
+    background-image: url(../imagenes/facebook.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+.redes__icono {
+  &:hover {
+    background-color: #217171;
+    filter: invert(1);
+    transition: 0.4s;
+  }
+
+  &:nth-of-type(2) {
+    background-image: url(../imagenes/instagram.png);
+  }
+
+  &:nth-of-type(3) {
+    background-image: url(../imagenes/gorjeo.png);
+  }
+
+  &:nth-of-type(4) {
+    background-image: url(../imagenes/github.png);
+  }
+}
+
+.contenedor__menu {
+  list-style: none;
+  color: #f2f2f2;
+  font-size: 18px;
+  align-items: center;
+  width: 50%;
+  margin-top: 1rem;
+  margin-right: 2.1rem;
+  text-decoration: none;
+  justify-content: space-evenly;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.menu__item {
+  margin: 1rem 1.5rem;
+  cursor: pointer;
+  opacity: 0.6;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.copyright {
+  color: black;
+  opacity: 0.8;
+  text-align: center;
+  margin-top: 25px;
+}

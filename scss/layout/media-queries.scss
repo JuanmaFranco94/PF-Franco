@@ -1,0 +1,130 @@
+@media screen and (max-width: 768px) {
+  body {
+    height: auto;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .boton__activador {
+    display: flex;
+    margin-top: 0.7rem;
+  }
+
+  .navbar__links {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar__links {
+    ul {
+      flex-direction: column;
+      width: 100%;
+      margin: 0;
+    }
+
+    li {
+      text-align: center;
+
+      a {
+        padding: .5rem 1rem;
+      }
+    }
+
+    &.active {
+      display: flex;
+    }
+  }
+
+  .marcas__item {
+    min-width: 100%;
+    grid-template-columns: 1fr;
+  }
+
+  .video__hero {
+    display: none;
+  }
+
+  .imagen__hero {
+    width: auto;
+    background-image: url(../imagenes/collage7.jpg);
+    background-size: cover, no-repeat center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: transparent;
+    position: relative;
+  }
+
+  .contenedor__hero {
+    width: 100%;
+    position: relative;
+
+    h1 {
+      font-size: 30px;
+      color: lightcoral;
+    }
+  }
+
+  .hero__descr {
+    font-size: 20px;
+    color: lightcoral;
+  }
+
+  .titulo__marcas, .productos__destacados__titulo {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contenedor__menu {
+    justify-content: space-between;
+    width: 100%;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contenedor__redes {
+    justify-content: center;
+  }
+
+  .copyright {
+    color: black;
+    opacity: 0.8;
+    text-align: center;
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contenedor__menu span {
+    box-sizing: border-box;
+  }
+
+  form {
+    margin: 5px 5px;
+  }
+
+  .col-lg-4 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .productos {
+    grid-template-columns: 1fr;
+  }
+
+  .productos__item__imagen {
+    padding: 80px;
+    text-align: center;
+  }
+
+  .carousel-item {
+    height: auto;
+  }
+}

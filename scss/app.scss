@@ -1,0 +1,27 @@
+/*Base - Estilo general*/
+@import "./base/estilo-general.scss";
+
+/*Layout - Nav*/
+@import "./layout/nav.scss";
+
+/*layout - Footer*/
+@import "./layout/footer.scss";
+
+/*Estilo de paginas - Index*/
+@import "./paginas/index.scss";
+
+/*Estilo de paginas - Sobre ES*/
+@import "./paginas/sobre-ES.scss";
+
+/*Estilo de paginas - Productos*/
+@import "./paginas/productos.scss";
+
+/*Estilo de paginas - Producto 1*/
+@import "./paginas/producto1.scss";
+
+/*Estilo de paginas - Contacto*/
+@import "./paginas/contacto.scss";
+
+
+/*Layout - Media queries*/
+@import "./layout/media-queries.scss";
