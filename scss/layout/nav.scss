@@ -11,11 +11,15 @@
 .navbar__titulo {
   margin: 1rem;
   margin-left: 13%;
-  font-family: 'lato', sans-serif;
-  font-size: 30px;
   display: flex;
+    img{
+      height: 60px;
+      align-items: center;
+    }
 }
-
+.logo__nav{
+  margin-top: -10px;
+}
 .navbar__links {
   ul {
     margin: 0;

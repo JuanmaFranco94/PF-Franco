@@ -34,17 +34,15 @@
   text-align: center;
   font-weight: 700;
   text-transform: uppercase;
-  background-clip: text;
-  color: transparent;
-  @include background-hero();
+  
+  
   h1 {
     font-size: 50px;
     letter-spacing: 0.2rem;
-    background-clip: text;
-    color: transparent;
+    color:#7FFF00;  
     margin: 0.7rem;
     border-radius: 8px;
-    @include background-hero();
+    border: 8px bold black;
     span {
       padding: 5px 14px;
       display: inline-block;
@@ -56,6 +54,7 @@
   margin: 20px;
   display: block;
   font-size: 26px;
+  color: antiquewhite;
 }
 
 .boton__hero {
@@ -66,6 +65,9 @@
   border-radius: 8px;
   transition: 0.3s all;
   text-decoration: none;
+  a {
+    color: black;
+  }
 
   &:hover {
     opacity: 0.91;
@@ -110,7 +112,7 @@
   align-items: center;
   height: 140%;
 
-  > div {
+   div {
     padding: 5px 10px;
     background-color: #217171;
     color: black;
@@ -151,24 +153,33 @@
   text-align: center;
   box-sizing: border-box;
   border-radius: 5px;
+  transition: all 500ms ease;
+  box-shadow: 1px 10px 15px rgba(0,0,0,0.50);
+  background-color: aliceblue;
 }
 
 .productos__item__imagen {
   height: 200px;
   background-size: cover;
-  background-position: center;
+  background-position: center; 
 }
+
 
 .pd__descr__titulo {
   font-size: 20px;
   font-weight: bold;
+  margin-top: 20px;
 }
 
-.productos__item > .pd__descr {
+.productos__item {
+  .pd__descr {
   color: black;
   font-style: italic;
+ }
 }
-
+.pd__descr__precio {
+  font-size: 20px;
+}
 .productos__boton {
   outline: none;
   background: whitesmoke;
@@ -178,5 +189,7 @@
   font-weight: bold;
   border-radius: 5px;
   font-size: 16px;
-  margin: 10px 0;
+}
+.btn{
+  margin-bottom: 30px;
 }
