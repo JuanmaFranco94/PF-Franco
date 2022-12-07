@@ -14,30 +14,39 @@
 .carrusel__texto {
   color: black;
   background-color: #217171;
-  font-size: 50px;
+  font-size: 60px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .carrusel__descr {
   color: black;
   background-color: #217171;
-  font-size: 20px;
+  font-size: 35px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .nosotros__1 {
-  margin: 30px;
+  margin: 100px;
   padding: 5px;
 
   h2 {
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: black;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 80px;
   }
 
   p {
+    margin: 50px;
     padding: 3px;
     color: black;
-    font-size: 20px;
+    font-size: 27px;
+    font-family: 'Roboto', sans-serif;
+
+    a{
+      text-decoration: none;
+    }
   }
 }
 
@@ -47,6 +56,10 @@
   margin-top: 20px;
   padding: 80px, 30px;
   box-shadow: 0 0 9px rgba(0, 0, 0, 0.6);
+  height: 310px;
+  width: 100%;
+  
+ 
 
   i {
     font-size: 50px;
@@ -54,8 +67,10 @@
   }
 
   h3 {
-    font-size: 30px;
+    font-size: 2em;
     margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
   }
 
   hr {
@@ -68,8 +83,8 @@
   }
 
   p {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
     font-style: italic;
     font-size: 20px;
   }
