@@ -1,10 +1,30 @@
 /*Main - Contacto*/
-
-form textarea {
-  max-height: 150px;
-  min-height: 150px;
+form{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+     label{
+      font-size: 20px;
+     }
+     textarea {
+      max-height: 150px;
+      min-height: 150px;    
+    }
 }
 
 input, textarea {
   border-radius: 7px;
 }
+
+.col-lg-6{
+    h2{
+      font-size: 45px;
+      font-weight: bold;
+      margin-bottom: 80px;
+    }
+    p{
+      font-size: 20px;
+      color: black;
+      text-align: left;
+    }
+}
+
